@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Festa da Uva: Conexão entre Campo e Cidade</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #7b1fa2, #9c27b0);
+      color: #fff;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      text-shadow: 0 0 6px rgba(123,31,162,0.8);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-style: italic;
+      opacity: 0.9;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #e1bee7;
+      font-weight: 700;
+      padding: 10px 18px;
+      border-radius: 25px;
+      background: rgba(255 255 255 / 0.15);
+      box-shadow: 0 0 8px #ce93d8;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    nav a:hover {
+      background: #fff;
+      color: #7b1fa2;
+      box-shadow: 0 0 12px #7b1fa2;
+    }
+
+    .imagem-banner {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      object-fit: contain;
+      display: block;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      margin: 0 auto 2rem auto;
+      border: 3px solid #d1c4e9;
+    }
+
+    section {
+      background: rgba(255 255 255 / 0.1);
+      padding: 20px 30px;
+      border-radius: 15px;
+      max-width: 900px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 12px rgba(123,31,162,0.4);
+    }
+
+    section h2 {
+      margin-bottom: 1rem;
+      color: #d1c4e9;
+      text-shadow: 0 0 6px #7b1fa2;
+      font-size: 2rem;
+    }
+
+    article p, article ul {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      color: #eee;
+    }
+
+    article ul {
+      list-style: inside disc;
+    }
+
+    #galeria article {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    #galeria img {
+      width: 30%;
+      min-width: 250px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(123,31,162,0.6);
+      transition: transform 0.3s ease;
+    }
+
+    #galeria img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 22px rgba(123,31,162,0.9);
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #d1c4e9;
+      margin-top: auto;
+      padding: 10px;
+      border-top: 1px solid #7b1fa2;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Festa da Uva</h1>
+    <p>Celebrando a conexão entre o campo e a cidade</p>
+  </header>
+
+  <nav>
+    <a href="#historia">História</a>
+    <a href="#cultura">Cultura</a>
+    <a href="#eventos">Eventos</a>
+    <a href="#galeria">Galeria</a>
+  </nav>
+
+  <img src="festa da uva.png" alt="Parreiral" class="imagem-banner" />
+
+  <section id="historia">
+    <h2>História da Festa da Uva</h2>
+    <article>
+      <p>A Festa Nacional da Uva é muito mais do que um evento: é a celebração de um povo, de suas raízes e da força da tradição. Criada em 1931, na cidade de Caxias do Sul (RS), a festa nasceu com o objetivo de homenagear os imigrantes italianos e valorizar a cultura da uva e do vinho, pilares do desenvolvimento da região da Serra Gaúcha.</p>
+      <p>No final do século XIX, milhares de famílias italianas chegaram ao Brasil em busca de novas oportunidades. Encontraram nos campos da Serra um território fértil para recomeçar. Com esforço e esperança, transformaram o solo em vinhedos e construíram uma identidade cultural forte, baseada no trabalho, na fé, na música e na alegria de viver.</p>
+      <p>Foi para celebrar essa herança que a comunidade organizou a primeira edição da Festa da Uva. Ruas decoradas, barracas com frutas frescas, danças folclóricas e o tradicional desfile temático marcaram o início de uma tradição que só cresceu com o tempo. Mesmo interrompida por guerras e dificuldades, a festa ressurgiu ainda mais vibrante — ganhando o reconhecimento de evento nacional a partir de 1950.</p>
+      <p>Hoje, a Festa da Uva é um dos maiores símbolos do sul do Brasil. A cada dois anos, milhares de visitantes se encantam com os desfiles alegóricos, a eleição da rainha, os shows culturais, a pisa da uva, as delícias da culinária italiana e o calor humano do povo caxiense.</p>
+      <p>Mais do que uvas, vinhos e celebrações, a Festa da Uva conta uma história de coragem, união e orgulho de um legado que continua a florescer a cada nova geração.</p>
+    </article>
+  </section>
+
+  <section id="cultura">
+    <h2>Cultura e Tradição</h2>
+    <article>
+      <p>A Festa da Uva é um verdadeiro espelho da cultura italiana que floresceu no sul do Brasil. Entre as tradições mais marcantes está o desfile cênico pelas ruas da cidade, com carros alegóricos, personagens históricos e representações simbólicas do trabalho no campo, da colheita da uva e da fé dos colonos. Também são destaque as apresentações de danças típicas, os corais italianos, a música folclórica e os grupos que mantêm viva a língua e os costumes dos antepassados.</p>
+      <p>Outro momento icônico é a eleição da rainha e das princesas da festa, que representam não apenas a beleza, mas também o orgulho, a alegria e o espírito comunitário do povo caxiense. Elas participam de toda a programação, levando a história da festa para o Brasil inteiro.</p>
+      <p>A pisa da uva, tradição herdada diretamente da Itália, é uma atração que encanta adultos e crianças. Nela, pessoas entram em tinas cheias de uvas para reviver a maneira antiga de produzir vinho — em um gesto simbólico de conexão com os antepassados.</p>
+    </article>
+  </section>
+
+  <section id="eventos">
+    <h2>Principais Eventos</h2>
+    <article>
+      <ul>
+        <li>Pisa da uva tradicional</li>
+        <li>Desfile alegórico pelas ruas da cidade</li>
+        <li>Feiras de produtos locais: vinhos, geleias, doces</li>
+        <li>Shows musicais regionais e nacionais</li>
+        <li>Espaços para crianças e apresentações folclóricas</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Imagens</h2>
+    <article>
+      <img src="PISA NA UVA.png" alt="Pisa da uva" />
+      <img src="DESFILE FESTA DA UVA.png" alt="Desfile na cidade" />
+      <img src="produção de vinho.png" alt="Produção de vinho artesanal" />
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Festa da Uva. Todos os direitos reservados.</p>
+    <p>IMAGENS GERADO POR iA</p>
+  </footer>
+</body>
+</html>
